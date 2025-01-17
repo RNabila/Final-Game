@@ -4,7 +4,7 @@ In this strategy-based game, the player must collect as many resources and distr
 ## How it's made:
 This game was made in Codeskulptor3, in complete Python.
 
-# Objective
+### Objective
 
 The goal of the game is to collect starlings and resources while improving the equality levels of different regions. Players must allocate resources, collect trash, and manage their inventory to bring harmony to all regions. The game ends when:
 
