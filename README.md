@@ -26,19 +26,7 @@ The goal of the game is to collect starlings and resources while improving the e
   
 - **Random Events:** Random events can affect regions positively or negatively, influencing equality scores.
 
-### Key Features
-
-- **Trash Collection:** Collect trash items on the screen to gain starlings and resources.
-  
-- **Resource Distribution/Allocation:** Use resources to increase equality in regions. The player can choose which region to allocate resources to by clicking the respective buttons.
-  
-- **Inventory Management:** Collect wood and water to manage resources in your inventory.
-  
-- **Random Events:** Random events affect the equality levels of regions, either giving a bonus or a penalty, and sometimes providing additional resources.
-  
 - **Game Over Conditions:** The game ends when either the player wins or loses. The game can be restarted at any time.
-
-### GUI Functionality
 
 #### Display
 
@@ -53,24 +41,24 @@ For a contemporary, abstract atmosphere, the game uses geometric shapes over a s
 - **Log:** Shows the previous five game events.  
 - **Inventory:** Displays how much water and wood the player currently has.
 
-### Controls
+# Controls
 
 - **Keyboard:** Use the arrow keys (left, right, up, down) to move the player character on the screen.
   
 - **Buttons:**
-  - **Allocate to Region A, B, C, D, E:** Allocate 10 resources to the selected region.
+  - **Allocate to Region A, B, C, D, E:** Allocate *10* resources to the selected region.
   - **Trigger Random Event:** Random events will impact the game (e.g., bonus or penalty to a region’s equality score).
   - **Restart Game:** Resets the game to its initial state.
   - **Toggle Inventory:** Displays the player's inventory (wood and water).
   - **Instructions:** Shows the game instructions.
-  - **Hide Instructions:** Hides the game instructions.
+  - **Hide Instructions:** Hides the game instructions, and resumes the game.
 
 ### Random Events
 
 Random events can be triggered at intervals during gameplay:
 
 - **Bonus:** A region gains additional equality points.  
-- **Penalty:** A region loses equality points.  
+- **Penalty:** A region loses equality points (Too many random events can cause you to lose.) 
 - **Resource Gain:** The player gains extra resources.
 
 ### Code Structure
@@ -88,7 +76,7 @@ Random events can be triggered at intervals during gameplay:
 - **player_velocity:** The player character's speed for fluid motion.
 - **instructions_visible:** A Boolean flag that indicates whether the game's instructions are visible or not.
 
-#### Helper Functions
+#### Functions
 
 - **log_event(event):** Adds an event to the game log.  
 - **spawn_trash():** Spawns a trash item at a random position on the screen.  
@@ -98,7 +86,7 @@ Random events can be triggered at intervals during gameplay:
 - **check_win():** Checks whether the player has won or lost the game.  
 - **restart_game():** Restarts the game to its initial state.
 
-#### Key Handlers
+#### Moving Keys
 
 - **keydown(key):** Handles key presses for player movement (up, down, left, right).  
 - **keyup(key):** Stops the player from moving when the key is released.
@@ -107,6 +95,7 @@ Random events can be triggered at intervals during gameplay:
 
 - **draw_background(canvas):** Draws the background with soft gradients and geometric shapes for a modern and sophisticated look.  
 - **draw(canvas):** The main function that draws the game elements, including the background, player, trash, resources, inventory, and event log.
+- **draw_text:** This can be used to write text on the screen and color them, make them as big as you want, etc.
 
 #### Instructions and Inventory
 
