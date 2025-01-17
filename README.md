@@ -1,6 +1,5 @@
 # Final-Game
 # Peaceformers: The Quest for Equality
-
 In the strategy-based simulation game *Peaceformers: The Quest for Equality*, the player must balance resources in order to raise the equality levels of various regions. In order to make sure their starlings score rises, the player must gather garbage, distribute resources, and keep track of wood and water. Equality for all regions and prudent resource management are the keys to victory. The game is controlled via in-game buttons and a keyboard, and also offers an interactive graphical user interface (GUI) to track events and progress.
 
 ## Objective
