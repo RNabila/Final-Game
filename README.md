@@ -3,6 +3,7 @@ In this strategy-based game, the player must collect as many resources and distr
 
 ## How it's made:
 This game was made in Codeskulptor3, in complete Python.
+The link to the game: https://py3.codeskulptor.org/#user310_BJP4PeyDUAUjKCA.py 
 
 ### Objective
 
