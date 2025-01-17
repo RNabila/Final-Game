@@ -1,9 +1,5 @@
 # Final-Game
 
-Certainly! Here's a thorough README for your game:
-
----
-
 # Peaceformers: The Quest for Equality
 
 ## Overview
