@@ -28,7 +28,7 @@ instructions_visible = False  # Track if instructions page is visible
 def log_event(event):
     """Adds an event to the game log."""
     log.insert(0, event)
-    if len(log) > 10:  # Limit log size
+    if len(log) > 10:  #limit log size
         log.pop()
 
 def spawn_trash():
