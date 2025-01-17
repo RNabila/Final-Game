@@ -3,16 +3,15 @@
 
 In the strategy-based simulation game *Peaceformers: The Quest for Equality*, the player must balance resources in order to raise the equality levels of various regions. In order to make sure their starlings score rises, the player must gather garbage, distribute resources, and keep track of wood and water. Equality for all regions and prudent resource management are the keys to victory. The game is controlled via in-game buttons and a keyboard, and also offers an interactive graphical user interface (GUI) to track events and progress.
 
-
-### Objective
+## Objective
 
 The goal of the game is to collect starlings and resources while improving the equality levels of different regions. Players must allocate resources, collect trash, and manage their inventory to bring harmony to all regions. The game ends when:
 
-**Win Condition:** All regions reach an equality score of 80 or more.
+**Win Condition:** All regions reach an equality/resources score of 80 or more.
 
-**Lose Condition:** Any region's equality score drops to 0.
+**Lose Condition:** Any region's equality/resources score drops to 0.(It is hard to lose, it would have to be a random event.)
 
-### Features of the Game
+## Features of the Game
 
 - **Regions:** Region A, Region B, Region C, Region D, and Region E are the five regions in the game. The initial equality score for each region is 50. Distributing resources is necessary to raise their equality ratings.
   
