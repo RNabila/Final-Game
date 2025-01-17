@@ -1,7 +1,10 @@
 # Peacefomers: Collect Resources and Distribute!
 In this strategy-based game, the player must collect as many resources and distribute them in order to raise equality levels of 5 different regions. They must collect trash, and keep track of how many wood and water they have in their inventory. Equality for all regions and prudent resource management are the keys to vicotry!
 
-## Objective
+## How it's made:
+This game was made in Codeskulptor3, in complete Python.
+
+# Objective
 
 The goal of the game is to collect starlings and resources while improving the equality levels of different regions. Players must allocate resources, collect trash, and manage their inventory to bring harmony to all regions. The game ends when:
 
